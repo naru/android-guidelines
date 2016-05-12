@@ -466,18 +466,18 @@ There are two __exceptions__ where it is possible to have long lines:
 
 If you must wrap the line then do so only if the line can be logically wrapped in the middle. When the line is broken at an operator, the break comes __before__ the operator.
 
-__ Bad __
+__Bad__
 ```java
 int longName = anotherVeryLongVariable + anEvenLongerOne - thisRidiculousLongOne
         + theFinalOne;
 ```
 
-__ Better __
+__Better__
 ```java
 int longName = anotherVeryLongVariable + anEvenLongerOne - thisRidiculousLongOne + theFinalOne;
 ```
 
-__ Logical wrapping __
+__Logical wrapping__
 ```java
 int longName = anotherVeryLongVariable + anEvenLongerOne 
 	- thisRidiculousLongOne + theFinalOne;
